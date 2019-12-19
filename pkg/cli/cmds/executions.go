@@ -6,8 +6,8 @@ import (
 	"time"
 
 	"github.com/docker/go-units"
-	v1 "github.com/rancher/terraform-controller/pkg/apis/terraformcontroller.cattle.io/v1"
-	"github.com/rancher/terraform-controller/pkg/gz"
+	v1 "github.com/giantswarm/terraform-controller/pkg/apis/terraformcontroller.cattle.io/v1"
+	"github.com/giantswarm/terraform-controller/pkg/gz"
 	"github.com/sirupsen/logrus"
 	"github.com/urfave/cli"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"

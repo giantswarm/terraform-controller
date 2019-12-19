@@ -21,10 +21,10 @@ package v1
 import (
 	time "time"
 
-	terraformcontrollercattleiov1 "github.com/rancher/terraform-controller/pkg/apis/terraformcontroller.cattle.io/v1"
-	versioned "github.com/rancher/terraform-controller/pkg/generated/clientset/versioned"
-	internalinterfaces "github.com/rancher/terraform-controller/pkg/generated/informers/externalversions/internalinterfaces"
-	v1 "github.com/rancher/terraform-controller/pkg/generated/listers/terraformcontroller.cattle.io/v1"
+	terraformcontrollercattleiov1 "github.com/giantswarm/terraform-controller/pkg/apis/terraformcontroller.cattle.io/v1"
+	versioned "github.com/giantswarm/terraform-controller/pkg/generated/clientset/versioned"
+	internalinterfaces "github.com/giantswarm/terraform-controller/pkg/generated/informers/externalversions/internalinterfaces"
+	v1 "github.com/giantswarm/terraform-controller/pkg/generated/listers/terraformcontroller.cattle.io/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	watch "k8s.io/apimachinery/pkg/watch"

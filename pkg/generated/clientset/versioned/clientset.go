@@ -21,7 +21,7 @@ package versioned
 import (
 	"fmt"
 
-	terraformcontrollerv1 "github.com/rancher/terraform-controller/pkg/generated/clientset/versioned/typed/terraformcontroller.cattle.io/v1"
+	terraformcontrollerv1 "github.com/giantswarm/terraform-controller/pkg/generated/clientset/versioned/typed/terraformcontroller.cattle.io/v1"
 	discovery "k8s.io/client-go/discovery"
 	rest "k8s.io/client-go/rest"
 	flowcontrol "k8s.io/client-go/util/flowcontrol"

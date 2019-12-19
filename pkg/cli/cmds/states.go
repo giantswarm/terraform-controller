@@ -3,8 +3,8 @@ package cmds
 import (
 	"fmt"
 
-	v1 "github.com/rancher/terraform-controller/pkg/apis/terraformcontroller.cattle.io/v1"
-	"github.com/rancher/terraform-controller/pkg/terraform/state"
+	v1 "github.com/giantswarm/terraform-controller/pkg/apis/terraformcontroller.cattle.io/v1"
+	"github.com/giantswarm/terraform-controller/pkg/terraform/state"
 	"github.com/sirupsen/logrus"
 	"github.com/urfave/cli"
 	corev1 "k8s.io/api/core/v1"

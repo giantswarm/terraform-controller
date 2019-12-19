@@ -8,8 +8,8 @@ import (
 	"context"
 	"os"
 
-	"github.com/rancher/terraform-controller/pkg/generated/controllers/terraformcontroller.cattle.io"
-	"github.com/rancher/terraform-controller/pkg/terraform"
+	"github.com/giantswarm/terraform-controller/pkg/generated/controllers/terraformcontroller.cattle.io"
+	"github.com/giantswarm/terraform-controller/pkg/terraform"
 	"github.com/rancher/wrangler-api/pkg/generated/controllers/batch"
 	"github.com/rancher/wrangler-api/pkg/generated/controllers/core"
 	"github.com/rancher/wrangler-api/pkg/generated/controllers/rbac"

@@ -3,8 +3,8 @@ package execution
 import (
 	"context"
 
-	"github.com/rancher/terraform-controller/pkg/apis/terraformcontroller.cattle.io/v1"
-	tfv1 "github.com/rancher/terraform-controller/pkg/generated/controllers/terraformcontroller.cattle.io/v1"
+	"github.com/giantswarm/terraform-controller/pkg/apis/terraformcontroller.cattle.io/v1"
+	tfv1 "github.com/giantswarm/terraform-controller/pkg/generated/controllers/terraformcontroller.cattle.io/v1"
 )
 
 func NewHandler(ctx context.Context, executions tfv1.ExecutionController, states tfv1.StateController, modules tfv1.ModuleController) *handler {

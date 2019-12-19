@@ -19,9 +19,9 @@ limitations under the License.
 package fake
 
 import (
-	clientset "github.com/rancher/terraform-controller/pkg/generated/clientset/versioned"
-	terraformcontrollerv1 "github.com/rancher/terraform-controller/pkg/generated/clientset/versioned/typed/terraformcontroller.cattle.io/v1"
-	faketerraformcontrollerv1 "github.com/rancher/terraform-controller/pkg/generated/clientset/versioned/typed/terraformcontroller.cattle.io/v1/fake"
+	clientset "github.com/giantswarm/terraform-controller/pkg/generated/clientset/versioned"
+	terraformcontrollerv1 "github.com/giantswarm/terraform-controller/pkg/generated/clientset/versioned/typed/terraformcontroller.cattle.io/v1"
+	faketerraformcontrollerv1 "github.com/giantswarm/terraform-controller/pkg/generated/clientset/versioned/typed/terraformcontroller.cattle.io/v1/fake"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/watch"
 	"k8s.io/client-go/discovery"

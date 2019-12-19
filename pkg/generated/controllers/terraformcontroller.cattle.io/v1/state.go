@@ -21,10 +21,10 @@ package v1
 import (
 	"context"
 
-	v1 "github.com/rancher/terraform-controller/pkg/apis/terraformcontroller.cattle.io/v1"
-	clientset "github.com/rancher/terraform-controller/pkg/generated/clientset/versioned/typed/terraformcontroller.cattle.io/v1"
-	informers "github.com/rancher/terraform-controller/pkg/generated/informers/externalversions/terraformcontroller.cattle.io/v1"
-	listers "github.com/rancher/terraform-controller/pkg/generated/listers/terraformcontroller.cattle.io/v1"
+	v1 "github.com/giantswarm/terraform-controller/pkg/apis/terraformcontroller.cattle.io/v1"
+	clientset "github.com/giantswarm/terraform-controller/pkg/generated/clientset/versioned/typed/terraformcontroller.cattle.io/v1"
+	informers "github.com/giantswarm/terraform-controller/pkg/generated/informers/externalversions/terraformcontroller.cattle.io/v1"
+	listers "github.com/giantswarm/terraform-controller/pkg/generated/listers/terraformcontroller.cattle.io/v1"
 	"github.com/rancher/wrangler/pkg/generic"
 	"k8s.io/apimachinery/pkg/api/equality"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"

@@ -19,9 +19,9 @@ limitations under the License.
 package terraformcontroller
 
 import (
-	clientset "github.com/rancher/terraform-controller/pkg/generated/clientset/versioned"
-	v1 "github.com/rancher/terraform-controller/pkg/generated/controllers/terraformcontroller.cattle.io/v1"
-	informers "github.com/rancher/terraform-controller/pkg/generated/informers/externalversions/terraformcontroller.cattle.io"
+	clientset "github.com/giantswarm/terraform-controller/pkg/generated/clientset/versioned"
+	v1 "github.com/giantswarm/terraform-controller/pkg/generated/controllers/terraformcontroller.cattle.io/v1"
+	informers "github.com/giantswarm/terraform-controller/pkg/generated/informers/externalversions/terraformcontroller.cattle.io"
 	"github.com/rancher/wrangler/pkg/generic"
 )
 

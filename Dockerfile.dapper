@@ -30,7 +30,7 @@ VOLUME /var/lib/cni
 VOLUME /var/log
 
 ENV DAPPER_ENV REPO TAG DRONE_TAG
-ENV DAPPER_SOURCE /go/src/github.com/rancher/terraform-controller/
+ENV DAPPER_SOURCE /go/src/github.com/giantswarm/terraform-controller/
 ENV DAPPER_OUTPUT ./bin ./dist
 ENV DAPPER_DOCKER_SOCKET true
 ENV TRASH_CACHE ${DAPPER_SOURCE}/.trash-cache

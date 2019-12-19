@@ -19,8 +19,8 @@ limitations under the License.
 package terraformcontroller
 
 import (
-	internalinterfaces "github.com/rancher/terraform-controller/pkg/generated/informers/externalversions/internalinterfaces"
-	v1 "github.com/rancher/terraform-controller/pkg/generated/informers/externalversions/terraformcontroller.cattle.io/v1"
+	internalinterfaces "github.com/giantswarm/terraform-controller/pkg/generated/informers/externalversions/internalinterfaces"
+	v1 "github.com/giantswarm/terraform-controller/pkg/generated/informers/externalversions/terraformcontroller.cattle.io/v1"
 )
 
 // Interface provides access to each of this group's versions.

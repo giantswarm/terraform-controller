@@ -3,8 +3,8 @@ package cmds
 import (
 	"context"
 
-	"github.com/rancher/terraform-controller/pkg/generated/controllers/terraformcontroller.cattle.io"
-	v1 "github.com/rancher/terraform-controller/pkg/generated/controllers/terraformcontroller.cattle.io/v1"
+	"github.com/giantswarm/terraform-controller/pkg/generated/controllers/terraformcontroller.cattle.io"
+	v1 "github.com/giantswarm/terraform-controller/pkg/generated/controllers/terraformcontroller.cattle.io/v1"
 	"github.com/rancher/wrangler-api/pkg/generated/controllers/batch"
 	batchv1 "github.com/rancher/wrangler-api/pkg/generated/controllers/batch/v1"
 	"github.com/rancher/wrangler-api/pkg/generated/controllers/core"

@@ -22,9 +22,9 @@ import (
 	"context"
 	"time"
 
-	clientset "github.com/rancher/terraform-controller/pkg/generated/clientset/versioned"
-	scheme "github.com/rancher/terraform-controller/pkg/generated/clientset/versioned/scheme"
-	informers "github.com/rancher/terraform-controller/pkg/generated/informers/externalversions"
+	clientset "github.com/giantswarm/terraform-controller/pkg/generated/clientset/versioned"
+	scheme "github.com/giantswarm/terraform-controller/pkg/generated/clientset/versioned/scheme"
+	informers "github.com/giantswarm/terraform-controller/pkg/generated/informers/externalversions"
 	"github.com/rancher/wrangler/pkg/generic"
 	"github.com/rancher/wrangler/pkg/schemes"
 	"k8s.io/apimachinery/pkg/runtime/schema"

@@ -1,8 +1,8 @@
 package terraform
 
 import (
-	//v1 "github.com/rancher/terraform-controller/pkg/apis/terraformcontroller.cattle.io/v1"
-	//terraformFakes "github.com/rancher/terraform-controller/pkg/generated/controllers/terraformcontroller.cattle.io/v1/fakes"
+	//v1 "github.com/giantswarm/terraform-controller/pkg/apis/terraformcontroller.cattle.io/v1"
+	//terraformFakes "github.com/giantswarm/terraform-controller/pkg/generated/controllers/terraformcontroller.cattle.io/v1/fakes"
 	"github.com/stretchr/testify/assert"
 	"testing"
 )

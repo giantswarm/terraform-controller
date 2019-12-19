@@ -1,4 +1,4 @@
-module github.com/rancher/terraform-controller
+module github.com/giantswarm/terraform-controller
 
 go 1.12
 

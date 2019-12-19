@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/rancher/terraform-controller/pkg/cli/cmds"
+	"github.com/giantswarm/terraform-controller/pkg/cli/cmds"
 	"github.com/sirupsen/logrus"
 	"github.com/urfave/cli"
 )

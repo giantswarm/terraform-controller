@@ -3,10 +3,10 @@ package terraform
 import (
 	"context"
 
-	tfv1 "github.com/rancher/terraform-controller/pkg/generated/controllers/terraformcontroller.cattle.io/v1"
-	"github.com/rancher/terraform-controller/pkg/terraform/execution"
-	"github.com/rancher/terraform-controller/pkg/terraform/module"
-	"github.com/rancher/terraform-controller/pkg/terraform/state"
+	tfv1 "github.com/giantswarm/terraform-controller/pkg/generated/controllers/terraformcontroller.cattle.io/v1"
+	"github.com/giantswarm/terraform-controller/pkg/terraform/execution"
+	"github.com/giantswarm/terraform-controller/pkg/terraform/module"
+	"github.com/giantswarm/terraform-controller/pkg/terraform/state"
 	batchv1 "github.com/rancher/wrangler-api/pkg/generated/controllers/batch/v1"
 	corev1 "github.com/rancher/wrangler-api/pkg/generated/controllers/core/v1"
 	rbacv1 "github.com/rancher/wrangler-api/pkg/generated/controllers/rbac/v1"

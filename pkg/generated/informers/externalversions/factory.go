@@ -23,9 +23,9 @@ import (
 	sync "sync"
 	time "time"
 
-	versioned "github.com/rancher/terraform-controller/pkg/generated/clientset/versioned"
-	internalinterfaces "github.com/rancher/terraform-controller/pkg/generated/informers/externalversions/internalinterfaces"
-	terraformcontrollercattleio "github.com/rancher/terraform-controller/pkg/generated/informers/externalversions/terraformcontroller.cattle.io"
+	versioned "github.com/giantswarm/terraform-controller/pkg/generated/clientset/versioned"
+	internalinterfaces "github.com/giantswarm/terraform-controller/pkg/generated/informers/externalversions/internalinterfaces"
+	terraformcontrollercattleio "github.com/giantswarm/terraform-controller/pkg/generated/informers/externalversions/terraformcontroller.cattle.io"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"
